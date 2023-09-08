@@ -7,7 +7,7 @@ const { Schema } = mongoose;
 const app = express();
 
 // Set up database connection
-const url = 'mongodb+srv://eldhopaulose0485:xyzel_025@cluster0.4sjqm.mongodb.net/Trash?retryWrites=true&w=majority';
+const url = 'mongodb+srv://eldhopaulose0485:xyzel_025@cluster0.eghf1.mongodb.net/Blog?retryWrites=true&w=majority';
 mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Define user schema
